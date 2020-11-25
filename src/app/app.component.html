@@ -4,6 +4,10 @@
   <router-outlet></router-outlet>
 </div>
 
+<app-tooltip [config]="config"></app-tooltip>
+<button (click)="onClick()">Trigger change detection</button>
+
+
 <!-- 
 Copyright Google LLC. All Rights Reserved.
 Use of this source code is governed by an MIT-style license that
